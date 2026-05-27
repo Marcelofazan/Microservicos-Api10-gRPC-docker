@@ -10,7 +10,7 @@ Exemplo de criação de Arquitetura distribuida CQRS utilizando banco de dados M
 | **CQRS** | É um padrão arquitetural que separa as operações de escrita (comandos) das operações de leitura (consultas) |
 | **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador) |
 
-#### Executa da aplicação
+#### Executar a aplicação
 
 VSCode Terminal [1]
 ```bash
