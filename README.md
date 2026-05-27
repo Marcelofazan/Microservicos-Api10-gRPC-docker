@@ -14,11 +14,11 @@ Exemplo de criação de Arquitetura distribuida CQRS utilizando banco de dados M
 
 #### Execução da aplicação
 
-VSCode Terminal (1)
+VSCode Terminal [1]
 ```bash
 docker-compose up --build  
 ```
-VSCode Terminal (2)
+VSCode Terminal [2]
 ```bash
 dotnet build
 
@@ -32,7 +32,7 @@ cd InfraEstrutura.Producao.Server
 
 dotnet run 
 ```
-VSCode Terminal (3)
+VSCode Terminal [3]
 ```bash
 cd Sistema.Producao.API
 
@@ -107,3 +107,6 @@ Apagar Cliente
 https://localhost:7274/api/Cliente/3fa85f64-5717-4562-b3fc-2c963f66afa6
 ```
 
+#### Postgres (pgAdmin)
+Conexão com o Banco de dados 
+- Com o Servidor do **Postgres** parado em Serviços, crie uma conexão Docker Postgres para 127.0.0.1 e informe o Usuário e Senha 
