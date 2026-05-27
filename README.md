@@ -54,7 +54,7 @@ docker compose down
 ### O que você vai encontrar neste projeto
 | Host | URL |
 |-----------|-----------|
-| **API** | https://localhost:7285/swagger/index.html  |
+| **API** | https://localhost:7274/swagger/index.html |
 | **gRPC** | https://localhost:7026/ |
 | **RabbitMQ** | http://localhost:15672 |
 ---
